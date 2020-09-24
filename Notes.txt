@@ -1,0 +1,34 @@
+Concatenation - Joining together in JavaScript using the plus (+) operator!
+
+let one = 'Hello, ';
+let two = 'how are you?';
+let joined = one + two; 
+console.log(joined);		Output: 'Hello, how are you?'
+
+
+Template Literals - Enclosed by the backtick (''). Can contain placeholders. These are
+indicated by the dollar sign and curly braces (${expression}).
+
+
+Template literals are a quicker way to concatenate text
+-you don't have to worry about spacing
+-you can embed variables
+-the syntax will resemble other lang's like PHP
+
+
+Normal Concatenation:
+
+const dogName = 'Fluffy';
+console.log('My dog, ' + dogName + ', is a great pet!');
+
+// My dog, Fluffy, is a great pet!
+
+
+Template Literals:
+
+const dogName = 'Fluffy';
+console.log(`My dog,${dogName}, is a great pet!`);
+
+// My dog, Fluffy, is a great pet!
+
+
